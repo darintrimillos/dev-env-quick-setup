@@ -23,8 +23,7 @@ mkdir ~/Code
 sudo snap install --classic code
 
 # Utilities
-sudo apt install xclip
-sudo apt install vim
+sudo apt install vim build-essential xclip
 sudo update-alternatives --config editor
 
 # SSH Setup
