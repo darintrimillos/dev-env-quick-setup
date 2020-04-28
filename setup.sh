@@ -16,9 +16,6 @@ read -p "Github email: " githubEmail
 git config --global user.name $githubDisplayName
 git config --global user.email $githubEmail
 
-# Create code directory
-mkdir ~/Code
-
 # Visual Studio Code
 sudo snap install --classic code
 
